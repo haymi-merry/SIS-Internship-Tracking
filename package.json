@@ -1,41 +1,41 @@
 {
-  "name": "interntracker",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "clean": "rm -rf node_modules .vite dist",
-    "vercel-build": "npm install && npm run build"
-  },
-  "dependencies": {
-    "@emotion/react": "^11.11.3",
-    "@emotion/styled": "^11.11.0",
-    "@mui/icons-material": "^5.17.1",
-    "@mui/material": "^5.15.2",
-    "@mui/x-data-grid": "^7.28.2",
-    "date-fns": "^4.1.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-router-dom": "^6.21.1",
-    "recharts": "^2.15.1"
-  },
-  "devDependencies": {
-    "@types/node": "^22.14.0",
-    "@types/react": "^18.3.20",
-    "@types/react-dom": "^18.3.6",
-    "@vitejs/plugin-react": "^4.3.4",
-    "eslint": "^8.57.1",
-    "eslint-plugin-react": "^7.37.5",
-    "rollup-plugin-visualizer": "^5.14.0",
-    "typescript": "^5.3.3",
-    "vite": "^6.2.6",
-    "vite-plugin-checker": "^0.8.3"
-  },
-  "engines": {
-    "node": ">=18.0.0"
+    "name": "interntracker",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "lint": "eslint .",
+      "preview": "vite preview",
+      "clean": "rm -rf node_modules .vite dist",
+      "vercel-build": "npm install && npm run build"
+    },
+    "dependencies": {
+      "@emotion/react": "^11.11.3",
+      "@emotion/styled": "^11.11.0",
+      "@mui/icons-material": "^5.17.1",
+      "@mui/material": "^5.15.2",
+      "@mui/x-data-grid": "^7.28.2",
+      "date-fns": "^4.1.0",
+      "react": "^18.3.1",
+      "react-dom": "^18.3.1",
+      "react-router-dom": "^6.21.1",
+      "recharts": "^2.15.1"
+    },
+    "devDependencies": {
+      "@types/node": "^22.14.0",
+      "@types/react": "^18.3.20",
+      "@types/react-dom": "^18.3.6",
+      "@vitejs/plugin-react": "^4.3.4",
+      "eslint": "^8.57.1",
+      "eslint-plugin-react": "^7.37.5",
+      "rollup-plugin-visualizer": "^5.14.0",
+      "typescript": "^5.3.3",
+      "vite": "^6.2.6",
+      "vite-plugin-checker": "^0.8.3"
+    },
+    "engines": {
+      "node": ">=18.0.0"
+    }
   }
-}
