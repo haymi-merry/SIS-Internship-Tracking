@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "clean": "rm -rf node_modules .vite dist",
+    "vercel-build": "npm install && npm run build"
   },
   "dependencies": {
     "@emotion/react": "^11.11.3",
@@ -21,10 +23,6 @@
     "react-router-dom": "^6.21.1",
     "recharts": "^2.15.1"
   },
-  "main": "index.js",
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "devDependencies": {
     "@types/node": "^22.14.0",
     "@types/react": "^18.3.20",
@@ -33,6 +31,11 @@
     "eslint": "^8.57.1",
     "eslint-plugin-react": "^7.37.5",
     "rollup-plugin-visualizer": "^5.14.0",
-    "vite": "^6.2.6"
+    "typescript": "^5.3.3",
+    "vite": "^6.2.6",
+    "vite-plugin-checker": "^0.8.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
