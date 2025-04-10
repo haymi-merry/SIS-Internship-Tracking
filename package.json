@@ -1,0 +1,30 @@
+{
+  "name": "interntracker",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@its/shared-hooks": "*",
+    "@its/shared-ui": "*",
+    "@mui/icons-material": "^5.17.1",
+    "@mui/material": "^5.15.2",
+    "@mui/x-data-grid": "^7.28.2",
+    "date-fns": "^4.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^6.21.1",
+    "recharts": "^2.15.1"
+  },
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

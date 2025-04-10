@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["./src/*"],
+        "@api/*": ["./src/api/*"],
+        "@pages/*": ["./src/pages/*"],
+        "@components/*": ["./src/components/*"],
+        "@its/shared-hooks/*": ["../../packages/shared-hooks/src/*"],
+        "@its/shared-ui/*": ["../../packages/shared-ui/src/*"]
+      }
+    }
+  }
